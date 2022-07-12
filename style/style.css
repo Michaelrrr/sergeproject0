@@ -1,0 +1,83 @@
+body {
+    background: rgb(106, 19, 9) url('../media/back.gif');
+    background-size: contain;
+    width: 66%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__title {
+    font-size: 30px;
+    margin: 20px 0px 10px 0px;
+}
+
+.header__picture {
+    width: 97.5%;
+    border: 2px solid rgb(175, 175, 175);
+    padding: 3px 3px;
+}
+
+.main {
+    display: flex;
+}
+
+.article {
+    width: 70%;
+}
+
+.article__title {
+    color: rgb(167, 33, 18);
+    font-size: 35px;
+    margin: 30px 0px;
+}
+
+.article__item {
+    text-indent: 35px;
+    padding-bottom: 30px;
+}
+
+#article__item__third {
+    padding-bottom: 0px;
+}
+
+.aside {
+    width: 30%;
+}
+
+.aside__box {
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px 0px 20px 0px;
+    margin: 20px 0px 0px 20px;
+    width: 250px;
+}
+
+.aside__title {
+    font-size: 25px;
+    padding: 7px 0px 0px 17px;
+}
+
+.menu {
+    padding: 25px 80px 25px 50px;
+}
+
+.menu__item {
+    padding: 2px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: rgb(167, 33, 18);
+}
+
+.menu__link:hover {
+    color: black;
+}
+
+.footer__item {
+    width: 97.5%;
+    text-align: center;
+    color: rgb(175, 175, 175);
+    border-top: 2px solid rgb(207, 207, 207);
+    margin-bottom: 50px;
+}
+
